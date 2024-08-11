@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from Util import read_csv,save_csv
+from utils import read_csv,save_csv
 def calculate_centroid(x, y):
     return np.mean(x), np.mean(y)
 
