@@ -59,6 +59,11 @@ Our mission is to blend the power of AI with creative expression, transforming i
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<h3 id="flowchart"> WorkFLow </h3>
+
+![flowchart](https://github.com/user-attachments/assets/e6acb522-a469-42c3-b3a9-ccb27af42e85)
+![flowchart2](https://github.com/user-attachments/assets/c0de5de4-147b-4660-9031-83e6ae3dd8c9)
+
 <h2 id="keyfeatures"> Key Features </h2>
 
 - 🔧 **Irregular Shape Identification:** Detect and classify various irregular doodle shapes, including polygons, stars, and more. Utilize advanced image processing to handle diverse and complex forms.
