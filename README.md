@@ -2,7 +2,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<h1 align="center">DoodleFix: An Algorithms for refining shapes, analyzing symmetry and completing complex doodles.</h1>
+<h1 align="center">DoodleFix: An Algorithms for regularizing shapes, analyzing symmetry and completing complex doodles.</h1>
 <div align="center">
   <a href="https://github.com/yourusername/doodlefix">
     <img src="assets/doodlefix-high-resolution-logo.png" alt="DoodleFix Logo">
@@ -49,9 +49,7 @@
 
 <h2 id="abouttheproject"> About the Project </h2>
 
-DoodleFix leverages advanced deep learning and geometric algorithms to transform hand-drawn doodles into perfectly regularized shapes. By classifying shapes using a custom ResNet-based CNN, the system corrects irregularities, identifies symmetry, and even completes missing parts. The final output showcases a harmonious collection of flawless geometric figures, demonstrating the power of AI in creative and technical shape analysis. An impressive blend of art and technology! 🛠️
-
-![DoodleFix making sad circle into happy one](assets\DoodleFix-ezgif.com-crop.gif)
+DoodleFix leverages advanced deep learning and geometric algorithms to transform hand-drawn doodles into perfectly regularized shapes. By classifying shapes using a custom ResNet-based CNN, the system corrects irregularities, identifies symmetry, and even completes missing parts. The final output showcases a harmonious collection of flawless geometric figures, demonstrating the power of AI in creative and technical shape analysis. An impressive blend of art and technology!
 
 Check out our demo [here](https://youtu.be/your-demo-link).
 
@@ -63,10 +61,18 @@ Our mission is to blend the power of AI with creative expression, transforming i
 
 <h2 id="keyfeatures"> Key Features </h2>
 
-- **Distorted Shape Classification:** Identify if a distorted shape can be classified into a geometric form.
-- **Geometric Transformation:** Convert classified shapes into their correct geometric representations.
-- **Symmetry Check:** Analyze transformed shapes for symmetry in multiple directions.
-- **Robust Performance:** Handle a diverse range of distorted shapes with impressive accuracy.
+- 🔧 **Irregular Shape Identification:** Detect and classify various irregular doodle shapes, including polygons, stars, and more. Utilize advanced image processing to handle diverse and complex forms.
+
+- 🔧 **Shape Regularization:** Transform identified shapes into regular geometric forms. Ensure shapes are correctly represented by applying algorithms to correct distortions and irregularities.
+
+- 🔧 **Symmetry Analysis:** Evaluate shapes for symmetry along multiple axes. Display symmetry results visually and use these insights to complete and enhance the shapes.
+
+- 🔧 **Shape Completion and Occlusion Handling:** Fill in incomplete shapes and reveal any occluded parts based on detected symmetry. Ensure that all visible and hidden portions are accurately represented.
+
+- 🔧 **Multi-Class Classification:** Use a custom CNN model to classify shapes into predefined categories such as Square, Circle, Star, Rectangle, and polygons. Handle edge cases with high accuracy.
+
+- 🔧 **Visual Representation and Correction:** Provide visual feedback by displaying regularized shapes and their symmetry on a unified image. Correct shapes to ensure they meet predefined geometric criteria.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,20 +87,40 @@ Our mission is to blend the power of AI with creative expression, transforming i
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<h2 id="detection"> Shape Classification and Transformation </h2>
+<h1 id="detection"> How DoodleFix Works 🤔 </h1>
 
-DoodleFix employs advanced machine learning models for shape classification, transformation, and symmetry checking.
+**Step 1: Finding Connected Components**
+- Detect and extract distinct shapes from the doodle using connected component analysis. This process involves identifying and labeling clusters of black pixels to determine individual shapes.
 
-### How It Works:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/60d9a886-0f31-42eb-999d-64b798c3e430" alt="DoodleFix making sad circle into happy one" style="width: 50%; height: auto;">
+</p>
 
-- **Shape Classification:** Our machine learning model classifies distorted shapes into geometric categories.
-- **Geometric Transformation:** Once classified, shapes are transformed into their correct geometric forms.
-- **Symmetry Check:** We analyze transformed shapes to ensure they exhibit geometric symmetry.
+**Step 2: Classifying Shapes with CNN**
+- Apply a custom CNN model to classify each identified shape into predefined categories such as Square, Circle, Star, Rectangle, or Polygon. The model processes black-and-white images of each shape to determine its class.
 
-### Key Advantages:
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/1254558c-eac2-4e06-8c1b-6122c17df7d4" alt="DoodleFix making sad circle into happy one" style="width: 50%; height: auto;">
+</p>
 
-- **High Accuracy:** Advanced models ensure precise classification and transformation.
-- **Versatile Symmetry Analysis:** Check for symmetry in multiple directions, beyond just vertical and horizontal.
+
+**Step 3: Applying Shape Regularization**
+- Use algorithms to transform classified shapes into their correct geometric representations. Regularize the shapes by correcting distortions and aligning them to standard geometric forms.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d6305105-f18f-4846-956b-fb3e122fccf5" alt="DoodleFix making sad circle into happy one" style="width: 30%; height: auto; margin: 0 10px;">
+  <img src="https://github.com/user-attachments/assets/2b9bc225-8704-45ef-8c18-566c8c14ab45" alt="Description of the second image" style="width: 30%; height: auto; margin: 0 10px;">
+  <img src="https://github.com/user-attachments/assets/7b1017bf-7d00-4d2c-82a8-e0cbdb29e0f1" alt="Description of the third image" style="width: 30%; height: auto; margin: 0 10px;">
+</p>
+
+**Step 4: Symmetry Analysis**
+- Analyze the regularized shapes for symmetry along multiple axes. This step ensures that shapes are balanced and complete by checking and visualizing symmetry.
+
+
+**Step 5: Shape Completion and Occlusion Fixing**
+- Fill in incomplete shapes and reveal occluded parts based on the detected symmetry. This process ensures that all visible and hidden portions of the shapes are accurately reconstructed and completed.
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,13 +135,13 @@ To set up DoodleFix on your local machine, follow these steps:
 2. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/doodlefix.git
+   git clone https://github.com/maskboyAvi/AdobeGensolve.git
    ```
 
 3. **Navigate to the project directory:**
 
    ```bash
-   cd doodlefix
+   cd AdobeGensolve
    ```
 
 4. **Install dependencies:**
@@ -123,12 +149,15 @@ To set up DoodleFix on your local machine, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
-
-5. **Run the application:**
+   
+5. **Navigate to Regularization directory:**
 
    ```bash
-   python main.ipynb
+   cd Regularize
    ```
+
+6. **Run the main.ipynb after specifying path of csv file**
+
 
 For more detailed setup instructions, refer to our [documentation](docs/setup.md).
 
@@ -138,19 +167,6 @@ To see DoodleFix in action, check out our demo or refer to the detailed example 
 
 - **Demo:** [Watch the Demo](https://youtu.be/your-demo-link)
 - **Example Usage Guide:** [Example Usage Guide](docs/examples/examples.md)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<h2 id="clicommands"> CLI Commands </h2>
-
-DoodleFix provides a set of CLI commands for efficient interaction. Refer to the [documentation](docs/examples/examples.md) for usage examples.
-
-```bash
-classify : Classify a distorted shape into its closest geometric form
-transform : Transform a classified shape into its proper geometric representation
-check-symmetry : Check if the transformed shape adheres to symmetry principles
-info : Get information about the application
-```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
