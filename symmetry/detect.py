@@ -38,5 +38,5 @@ def is_symmetric(image_path):
         print("The object is not symmetric")
         return False
 
-image_path = 'hexagon.png'
+image_path = 'symmetry/files/square.jpg'
 is_symmetric(image_path)

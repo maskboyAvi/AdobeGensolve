@@ -95,7 +95,13 @@ def main(image_path):
     cv2.imwrite(output_path, output_image)
     
     print(f"Output image saved as: {output_path}")
+    # Display the image
+    cv2.imshow('Symmetry Lines', output_image)
+    
+    # Wait for a key press and close the window
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+    
 
 if __name__ == "__main__":
-    # Replace 'input_image.png' with your image file name
-    main('circle.png')
+    main('symmetry\\files\circle.jpg')
