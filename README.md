@@ -117,6 +117,9 @@ Our mission is to blend the power of AI with creative expression, transforming i
   <img src="https://github.com/user-attachments/assets/f3cc6f15-35df-4a9b-aee4-f714e8a2aea6" alt="Description of the second image" style="width: 30%; height: auto; margin: 0 10px;">
   <img src="https://github.com/user-attachments/assets/18982be1-df46-4dc4-8543-51fb98aecaf9" alt="Description of the third image" style="width: 30%; height: auto; margin: 0 10px;">
 </p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/abb81cc5-9a4c-47fe-9644-7bacc07207cc" alt="DoodleFix making sad circle into happy one" style="width: 50%; height: auto;">
+</p>
 
 **Step 4: Symmetry Analysis**
 - Analyze the regularized shapes for symmetry along multiple axes. This step ensures that shapes are balanced and complete by checking and visualizing symmetry.
@@ -199,7 +202,7 @@ We welcome contributions! For detailed instructions on how to contribute, please
 
 - [Aviral Katiyar](https://github.com/maskboyAvi)
 - [Darsh Baxi](https://github.com/darshbaxi)
-- [Asim](https://github.com/asim)
+- [Asim](https://github.com/mohammedasimahmed)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
