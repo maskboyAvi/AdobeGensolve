@@ -34,12 +34,7 @@ ShapeTransformer is an innovative tool designed to address the challenge of dist
      ```bash
      python main.py
      ```
-
-## Reports
-- [Design Document](link-to-design-document)
-- [Testing Report](link-to-testing-report)
-- [User Manual](link-to-user-manual)
-
+     
 ## Details
 ShapeTransformer consists of two main components:
 1. **Shape Classification**:
