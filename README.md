@@ -1,48 +1,81 @@
 # AdobeGensolve
-Adobe Gensolve hackathon.
+
 ## Project Title
-A brief and catchy description of your project goes here.
+**ShapeTransformer**: Transforming Distorted Shapes into Their Closest Real Forms
 
 ## Introduction
-In this section, provide a summary of your project and its purpose. Explain the problem that it aims to solve and the value that it brings to the users.
+ShapeTransformer is an innovative tool designed to address the challenge of distorted shapes in images. This project aims to classify distorted shapes into their closest real geometric forms, such as squares, circles, or triangles. If the shape cannot be confidently classified, it remains unchanged. Furthermore, for shapes that are successfully transformed, the tool performs a symmetry check to ensure the transformed shape adheres to geometric symmetry principles. This dual approach of classification and transformation ensures accurate and visually coherent shape representations.
 
 ## Configuration
-List the dependencies and tools required for the project, as well as any specific instructions for setting up the development environment.
+- **Dependencies**:
+  - TensorFlow/Keras
+  - OpenCV
+  - NumPy
+  - SciPy
+- **Tools**:
+  - Python 3.8+
+  - Jupyter Notebook (for experimentation)
+- **Setup Instructions**:
+  1. Clone the repository.
+  2. Install required dependencies using `pip install -r requirements.txt`.
 
 ## Installation
-Provide detailed instructions on how to install and set up the project. This should include steps for downloading the code, installing dependencies, and running any necessary scripts.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/ShapeTransformer.git
+   cd ShapeTransformer
+   ```
+2. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Run the Project**:
+   - To start the shape classification and transformation process, execute:
+     ```bash
+     python main.py
+     ```
 
 ## Reports
-Include any relevant reports or documents related to the project, such as design documents, testing reports, or user manuals.
+- [Design Document](link-to-design-document)
+- [Testing Report](link-to-testing-report)
+- [User Manual](link-to-user-manual)
 
 ## Details
-Provide a more in-depth explanation of the project, including its features and functionality. This can include code examples and technical details.
+ShapeTransformer consists of two main components:
+1. **Shape Classification**:
+   - Uses a machine learning model to classify distorted shapes into predefined geometric categories.
+2. **Shape Transformation and Symmetry Check**:
+   - Transforms classified shapes into their proper geometric forms.
+   - Performs a symmetry check on the transformed shapes to ensure geometric integrity.
 
 ## Language and Code Explanations
-If your project uses a specific programming language or framework, provide a brief overview of the language and any relevant code examples. Explain any key concepts or patterns used in the project.
+- **Programming Language**: Python
+- **Frameworks**:
+  - TensorFlow/Keras for shape classification.
+  - OpenCV for image processing.
+- **Key Concepts**:
+  - Machine learning classification using Convolutional Neural Networks (CNNs).
+  - Geometric transformation and symmetry analysis.
 
 ## Contributors
-The following individuals have contributed to the EZCompose project:
-
 ### 1. [Aviral Katiyar](https://github.com/maskboyAvi)
-
- - Role: AI-ML Engineer
- - Responsibilities: Developed algorithms to segregate and classify each shape, and trained models for accurate shape detection. 
-
+- **Role**: AI-ML Engineer
+- **Responsibilities**: Developed algorithms for shape classification and trained models for accurate shape detection.
 
 ### 2. [Darsh Baxi](https://github.com/darshbaxi)
+- **Role**: AI-ML Engineer
+- **Responsibilities**: Developed shape transformation algorithms and trained a CNN model for accurate shape classification.
 
- - Role: AI-ML Engineer
- - Responsibilities: Developed algorithms to redefine and regularize geometric shapes, such as squares and stars. Trained a convolutional neural network (CNN) model for accurate shape detection and classification.
-
- ### 3. [Asim ](https://github.com/darshbaxi)
-
- - Role: AI-ML Engineer
- - Responsibilities: Developed an algorithms for summetry .
+### 3. [Asim](https://github.com/asim)
+- **Role**: AI-ML Engineer
+- **Responsibilities**: Implemented algorithms for symmetry detection in transformed shapes.
 
 ## Links
-Link to the issue tracker: [Insert link here]
-Link to the project documentation: [Insert link here]
-Link to the project homepage: [Insert link here]
-Link to the project's license: [Insert link here]
-Note: Keep the links centered on their own line
+- [Issue Tracker](link-to-issue-tracker)
+- [Project Documentation](link-to-project-documentation)
+- [Project Homepage](link-to-project-homepage)
+- [Project License](link-to-project-license)
+
+---
+
+Feel free to adjust any details as needed!
