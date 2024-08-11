@@ -108,20 +108,30 @@ Our mission is to blend the power of AI with creative expression, transforming i
 - Use algorithms to transform classified shapes into their correct geometric representations. Regularize the shapes by correcting distortions and aligning them to standard geometric forms.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d6305105-f18f-4846-956b-fb3e122fccf5" alt="DoodleFix making sad circle into happy one" style="width: 30%; height: auto; margin: 0 10px;">
-  <img src="https://github.com/user-attachments/assets/2b9bc225-8704-45ef-8c18-566c8c14ab45" alt="Description of the second image" style="width: 30%; height: auto; margin: 0 10px;">
-  <img src="https://github.com/user-attachments/assets/7b1017bf-7d00-4d2c-82a8-e0cbdb29e0f1" alt="Description of the third image" style="width: 30%; height: auto; margin: 0 10px;">
+  <img src="https://github.com/user-attachments/assets/d5b897a0-19ae-483b-9327-ae3bc270d224" alt="DoodleFix making sad circle into happy one" style="width: 30%; height: auto; margin: 0 10px;">
+  <img src="https://github.com/user-attachments/assets/f3cc6f15-35df-4a9b-aee4-f714e8a2aea6" alt="Description of the second image" style="width: 30%; height: auto; margin: 0 10px;">
+  <img src="https://github.com/user-attachments/assets/18982be1-df46-4dc4-8543-51fb98aecaf9" alt="Description of the third image" style="width: 30%; height: auto; margin: 0 10px;">
 </p>
-![Input CSV file](https://github.com/user-attachments/assets/0d042a3f-521b-4e6c-b32a-05468f43add5)
 
 **Step 4: Symmetry Analysis**
 - Analyze the regularized shapes for symmetry along multiple axes. This step ensures that shapes are balanced and complete by checking and visualizing symmetry.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1225a1ce-1fa6-4273-bd44-0f9404928e77" alt="DoodleFix making sad circle into happy one" style="width: 30%; height: auto; margin: 0 10px;">
+  <img src="https://github.com/user-attachments/assets/22e3c7c8-57f2-470f-bd4a-9ab56798f876" alt="Description of the second image" style="width: 30%; height: auto; margin: 0 10px;">
+  <img src="https://github.com/user-attachments/assets/b40dcdde-bb0a-4bfb-a3c3-1337ddc54ef5" alt="Description of the third image" style="width: 30%; height: auto; margin: 0 10px;">
+</p>
 
 
 **Step 5: Shape Completion and Occlusion Fixing**
 - Fill in incomplete shapes and reveal occluded parts based on the detected symmetry. This process ensures that all visible and hidden portions of the shapes are accurately reconstructed and completed.
 
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/05c89c0f-1ae9-4110-9ba9-924d82e1d931" alt="DoodleFix making sad circle into happy one" style="width: 70%; height: auto;">
+</p>
 
+
+**For more detailed setup instructions, refer to our [documentation](https://drive.google.com/file/d/1y-Rh17DQ5s4s4koLSMlgTXrMctzMZ2jj/view?usp=sharing).**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,9 +168,6 @@ To set up DoodleFix on your local machine, follow these steps:
    ```
 
 6. **Run the main.ipynb after specifying path of csv file**
-
-
-For more detailed setup instructions, refer to our [documentation](docs/setup.md).
 
 <h3 id="example"> Example Usage </h3>
 
