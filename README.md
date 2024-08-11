@@ -132,7 +132,7 @@ To set up DoodleFix on your local machine, follow these steps:
 5. **Run the application:**
 
    ```bash
-   python main.py
+   python main.ipynb
    ```
 
 For more detailed setup instructions, refer to our [documentation](docs/setup.md).
