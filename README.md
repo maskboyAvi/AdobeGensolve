@@ -181,12 +181,3 @@ We welcome contributions! For detailed instructions on how to contribute, please
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
-
-Feel free to adjust the content, images, and links according to your actual project details. This version is designed to be more engaging and accessible, making it easier for users to understand the purpose and functionality of DoodleFix.
-
-Citations:
-[1] https://github.com/nextcloud/all-in-one/issues/1945
-[2] https://github.com/tareknaous/readme
-[3] https://github.com/akveo/eva-icons/issues/16
-[4] https://www.hatica.io/blog/readme-pages/
-[5] https://dev.to/quira/5-pro-tips-for-an-unbeatable-readme-143i
