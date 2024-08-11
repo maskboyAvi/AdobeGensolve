@@ -49,20 +49,13 @@
 
 <h2 id="abouttheproject"> About the Project </h2>
 
-DoodleFix is a tool designed to handle distorted shapes by classifying them into their nearest geometric forms and transforming them accordingly. If a shape cannot be classified, it remains unchanged. For those that can be classified, DoodleFix refines them to their correct geometric forms and performs a symmetry check to ensure they adhere to geometric principles. It also checks if any two shapes overlap each other and transform them two distict shapes.
+DoodleFix leverages advanced deep learning and geometric algorithms to transform hand-drawn doodles into perfectly regularized shapes. By classifying shapes using a custom ResNet-based CNN, the system corrects irregularities, identifies symmetry, and even completes missing parts. The final output showcases a harmonious collection of flawless geometric figures, demonstrating the power of AI in creative and technical shape analysis. An impressive blend of art and technology! 🛠️
 
 Check out our demo [here](https://youtu.be/your-demo-link).
 
 <h3 id="mission"> Our Mission </h3>
 
-Our mission is to empower users with a robust tool for transforming and analyzing distorted shapes, simplifying the process of working with imperfect or incomplete doodles while ensuring accurate geometric representation.
-
-<h3 id="valueproposition"> Why Choose DoodleFix? </h3>
-
-- **Shape Classification and Transformation:** Accurately classify distorted shapes and transform them into their proper representations.
-- **Symmetry Analysis:** Ensure that transformed shapes adhere to geometric symmetry principles.
-- **User-Friendly Interface:** Enjoy a seamless experience with an intuitive interface.
-- **Advanced Algorithms:** Utilize cutting-edge machine learning models for high accuracy in shape classification and transformation.
+Our mission is to blend the power of AI with creative expression, transforming irregular doodles into perfect geometric forms. We aim to push the boundaries of shape recognition and correction, turning every sketch into a masterpiece of symmetry and precision.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
