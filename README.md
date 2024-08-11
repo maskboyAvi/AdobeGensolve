@@ -2,7 +2,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<h1 align="center">DoodleFix: An Advanced System for Shape Refinement, Symmetry Analysis, and Completion of Complex Doodles</h1>
+<h1 align="center">DoodleFix: An Algorithms for refining shapes, analyzing symmetry and completing complex doodles.</h1>
 <div align="center">
   <a href="https://github.com/yourusername/doodlefix">
     <img src="assets/doodlefix-high-resolution-logo.png" alt="DoodleFix Logo">
