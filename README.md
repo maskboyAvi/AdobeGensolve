@@ -13,9 +13,9 @@
     <br />
     <a href="https://youtu.be/your-demo-link">Watch the Demo</a>
     ·
-    <a href="https://github.com/yourusername/doodlefix/issues">Report a Bug</a>
+    <a href="https://github.com/maskboyAvi/AdobeGensolve/issues">Report a Bug</a>
     ·
-    <a href="https://github.com/yourusername/doodlefix/issues">Request a Feature</a>
+    <a href="https://github.com/maskboyAvi/AdobeGensolve/issues">Request a Feature</a>
   </p>
 </div>
 
@@ -49,7 +49,7 @@
 
 <h2 id="abouttheproject"> About the Project </h2>
 
-DoodleFix is a cutting-edge tool designed to handle distorted shapes by classifying them into their nearest geometric forms and transforming them accordingly. If a shape cannot be classified, it remains unchanged. For those that can be classified, DoodleFix refines them to their correct geometric forms and performs a symmetry check to ensure they adhere to geometric principles.
+DoodleFix is a tool designed to handle distorted shapes by classifying them into their nearest geometric forms and transforming them accordingly. If a shape cannot be classified, it remains unchanged. For those that can be classified, DoodleFix refines them to their correct geometric forms and performs a symmetry check to ensure they adhere to geometric principles. It also checks if any two shapes overlap each other and transform them two distict shapes.
 
 Check out our demo [here](https://youtu.be/your-demo-link).
 
