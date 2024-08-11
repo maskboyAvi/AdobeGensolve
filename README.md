@@ -51,6 +51,8 @@
 
 DoodleFix leverages advanced deep learning and geometric algorithms to transform hand-drawn doodles into perfectly regularized shapes. By classifying shapes using a custom ResNet-based CNN, the system corrects irregularities, identifies symmetry, and even completes missing parts. The final output showcases a harmonious collection of flawless geometric figures, demonstrating the power of AI in creative and technical shape analysis. An impressive blend of art and technology! 🛠️
 
+![DoodleFix making sad circle into happy one](assets\DoodleFix-ezgif.com-crop.gif)
+
 Check out our demo [here](https://youtu.be/your-demo-link).
 
 <h3 id="mission"> Our Mission </h3>
