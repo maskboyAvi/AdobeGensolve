@@ -112,6 +112,7 @@ Our mission is to blend the power of AI with creative expression, transforming i
   <img src="https://github.com/user-attachments/assets/2b9bc225-8704-45ef-8c18-566c8c14ab45" alt="Description of the second image" style="width: 30%; height: auto; margin: 0 10px;">
   <img src="https://github.com/user-attachments/assets/7b1017bf-7d00-4d2c-82a8-e0cbdb29e0f1" alt="Description of the third image" style="width: 30%; height: auto; margin: 0 10px;">
 </p>
+![Input CSV file](https://github.com/user-attachments/assets/0d042a3f-521b-4e6c-b32a-05468f43add5)
 
 **Step 4: Symmetry Analysis**
 - Analyze the regularized shapes for symmetry along multiple axes. This step ensures that shapes are balanced and complete by checking and visualizing symmetry.
