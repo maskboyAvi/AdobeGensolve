@@ -1,22 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.optimize import minimize
-from shapely.geometry import Point
-from shapely.geometry.polygon import Polygon
-from shapely.ops import unary_union
 
-
-# def read_csv(file_path):
-#     data = pd.read_csv(file_path)
-#     x = data.iloc[:, -2].values
-#     y = data.iloc[:, -1].values
-#     return x, y
-
-# # Function to save the refined points to a new CSV file
-# def save_csv(x, y, file_path):
-#     df = pd.DataFrame({'x': x, 'y': y})
-#     df.to_csv(file_path, index=False)
 
 # Function to calculate the centroid of points
 def calculate_centroid(x, y):
