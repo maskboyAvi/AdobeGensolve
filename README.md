@@ -11,7 +11,7 @@
     DoodleFix is your go-to tool for transforming distorted shapes into their closest geometric forms while ensuring symmetry in the refined shapes.
   <br />
     <br />
-    <a href="https://youtu.be/your-demo-link">Watch the Demo</a>
+    <a href="https://youtu.be/TOwcUPju1h8">Watch the Demo</a>
     ·
     <a href="https://github.com/maskboyAvi/AdobeGensolve/issues">Report a Bug</a>
     ·
@@ -51,7 +51,7 @@
 
 DoodleFix leverages advanced deep learning and geometric algorithms to transform hand-drawn doodles into perfectly regularized shapes. By classifying shapes using a custom ResNet-based CNN, the system corrects irregularities, identifies symmetry, and even completes missing parts. The final output showcases a harmonious collection of flawless geometric figures, demonstrating the power of AI in creative and technical shape analysis. An impressive blend of art and technology!
 
-Check out our demo [here](https://youtu.be/your-demo-link).
+Check out our demo [here](https://youtu.be/TOwcUPju1h8).
 
 <h3 id="mission"> Our Mission </h3>
 
@@ -182,7 +182,7 @@ To set up DoodleFix on your local machine, follow these steps:
 To see DoodleFix in action, check out our demo or refer to the detailed example usage guide:
 
 - **Demo:** [Watch the Demo](https://youtu.be/your-demo-link)
-- **Example Usage Guide:** [Example Usage Guide](docs/examples/examples.md)
+- **Example Usage Guide:** [Example Usage Guide](https://github.com/maskboyAvi/AdobeGensolve/tree/main/docs)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
