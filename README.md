@@ -72,5 +72,3 @@ ShapeTransformer consists of two main components:
 - [Project License](link-to-project-license)
 
 ---
-
-Feel free to adjust any details as needed!
