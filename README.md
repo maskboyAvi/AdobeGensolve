@@ -2,7 +2,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<h1 align="center">DoodleFix: An Algorithms for regularizing shapes, analyzing symmetry and completing complex doodles.</h1>
+<h1 align="center">DoodleFix: Algorithms for regularizing shapes, analyzing symmetry and completing complex doodles.</h1>
 <div align="center">
   <a href="https://github.com/yourusername/doodlefix">
     <img src="assets/doodlefix-high-resolution-logo.png" alt="DoodleFix Logo">
@@ -181,7 +181,7 @@ To set up DoodleFix on your local machine, follow these steps:
 
 To see DoodleFix in action, check out our demo or refer to the detailed example usage guide:
 
-- **Demo:** [Watch the Demo](https://youtu.be/your-demo-link)
+- **Demo:** [Watch the Demo](https://www.youtube.com/watch?v=TOwcUPju1h8)
 - **Example Usage Guide:** [Example Usage Guide](https://github.com/maskboyAvi/AdobeGensolve/tree/main/docs)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
